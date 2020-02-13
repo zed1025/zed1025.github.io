@@ -1,108 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Notebooks | Amit Kumar</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body {
-            background: url('images/background.jpg');
-            opacity: 0.9;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
 
 
-    </style>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Notebooks</title>
+
+  <style>
+    body {
+      background: #444;
+      color: white;
+    }
+
+    #text-secondary {
+      color: #eece1a;
+    }
+
+
+  </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-        <a class="navbar-brand" href="index.html">Amit Kumar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" href="blogs.html">Blogs <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
 
-    <div class="container">
-        <a href="blogs.html"><button style="display: block; margin-top: 10px; margin-bottom: 10px;"type="button" class="btn btn-danger">Back</button></a>
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
     </div>
 
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            Projects
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="blogs.html" class="nav-link">
+            Articles and Blogs
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
+  <main id="contact">
+    <h1 class="lg-heading">
+      Jupyter 
+      <span id="text-secondary">Notebooks</span>
+    </h1>
+    <h2 class="sm-heading">
+      My Data Science & Machine Learning work...
+    </h2>
+
+    <div>
+        <a href="blogs.html"><button style="display: block; margin-top: 10px; margin-bottom: 10px;"type="button" class="btn btn-danger">Back</button></a>
+    </div>  
+    
     <!-- Notebooks -->
-    <div class="container">
-
-        <a href="./notebooks/Satellite Image Analysis using numpy.html" target="_black"><div class="alert alert-danger" role="alert">
+    <div>
+        <a href="./notebooks/Satellite Image Analysis using numpy.html" target="_black"><div class="alert alert-dark" role="alert">
           Satellite Image Analysis using numpy
         </div></a>
 
-        <a href="./notebooks/UCSD_Numpy_Notebook.html" target="_black"><div class="alert alert-danger" role="alert">
+        <a href="./notebooks/UCSD_Numpy_Notebook.html" target="_black"><div class="alert alert-dark" role="alert">
           UCSD_Numpy_Notebook
         </div></a>
 
-        <a href="./notebooks/PCA Example.html" target="_black"><div class="alert alert-danger" role="alert">
+        <a href="./notebooks/PCA Example.html" target="_black"><div class="alert alert-dark" role="alert">
           PCA Example
         </div></a>
 
-        <a href="./notebooks/Introduction to Pandas.html" target="_black"><div class="alert alert-danger" role="alert">
+        <a href="./notebooks/Introduction to Pandas.html" target="_black"><div class="alert alert-dark" role="alert">
           Introduction to Pandas
         </div></a>
 
-        <a href="./notebooks/European Soccer Regression Analysis using scikit-learn.html" target="_black"><div class="alert alert-danger" role="alert">
+        <a href="./notebooks/European Soccer Regression Analysis using scikit-learn.html" target="_black"><div class="alert alert-dark" role="alert">
           European Soccer Regression Analysis using scikit-learn
         </div></a>
 
-        <a href="./notebooks/Converting DF to ndarray.html" target="_black"><div class="alert alert-danger" role="alert">
+        <a href="./notebooks/Converting DF to ndarray.html" target="_black"><div class="alert alert-dark" role="alert">
           Converting DF to ndarray
         </div></a>
 
-        <a href="./notebooks/Deep Neural Network - 2 - Application.html" target="_black"><div class="alert alert-success" role="alert">
+        <a href="./notebooks/Deep Neural Network - 2 - Application.html" target="_black"><div class="alert alert-dark" role="alert">
           Deep Neural Network - 2 - Application (Coursera deeplearning.ai week 4)
         </div></a>
 
-        <a href="./notebooks/Building your Deep Neural Network - 1.html" target="_black"><div class="alert alert-success" role="alert">
+        <a href="./notebooks/Building your Deep Neural Network - 1.html" target="_black"><div class="alert alert-dark" role="alert">
           Building your Deep Neural Network - 1 (Coursera deeplearning.ai week 4)
         </div></a>
 
-        <a href="./notebooks/Planar data classification with one hidden layer.html" target="_black"><div class="alert alert-success" role="alert">
+        <a href="./notebooks/Planar data classification with one hidden layer.html" target="_black"><div class="alert alert-dark" role="alert">
           Planar data classification with one hidden layer (Coursera deeplearning.ai week 3)
         </div></a>
 
-        <a href="./notebooks/Logistic Regression with a Neural Network mindset.html" target="_black"><div class="alert alert-success" role="alert">
+        <a href="./notebooks/Logistic Regression with a Neural Network mindset.html" target="_black"><div class="alert alert-dark" role="alert">
           Logistic Regression with a Neural Network mindset (Coursera deeplearning.ai week 2)
         </div></a>
 
-        <a href="./notebooks/Python Basics With Numpy.html" target="_black"><div class="alert alert-danger" role="alert">
+        <a href="./notebooks/Python Basics With Numpy.html" target="_black"><div class="alert alert-dark" role="alert">
           Python Basics with numpy (Coursera deeplearning.ai week 2)
         </div></a>
 
     </div>
+    <!-- Notebooks End -->
+
+
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2020
+  </footer>
 
 
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
+
 </html>
